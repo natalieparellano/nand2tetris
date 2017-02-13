@@ -14,5 +14,51 @@ CHIP Register {
     OUT out[16];
 
     PARTS:
-    // Put your code here:
+    Mux(a=DffOut0, b=in[0], sel=load, out=DffIn0);
+    DFF(in=DffIn0, out=out[0], out=DffOut0);
+    
+    Mux(a=DffOut1, b=in[1], sel=load, out=DffIn1);
+    DFF(in=DffIn1, out=out[1], out=DffOut1);
+    
+    Mux(a=DffOut2, b=in[2], sel=load, out=DffIn2);
+    DFF(in=DffIn2, out=out[2], out=DffOut2);
+    
+    Mux(a=DffOut3, b=in[3], sel=load, out=DffIn3);
+    DFF(in=DffIn3, out=out[3], out=DffOut3);
+    
+    Mux(a=DffOut4, b=in[4], sel=load, out=DffIn4);
+    DFF(in=DffIn4, out=out[4], out=DffOut4);
+    
+    Mux(a=DffOut5, b=in[5], sel=load, out=DffIn5);
+    DFF(in=DffIn5, out=out[5], out=DffOut5);
+    
+    Mux(a=DffOut6, b=in[6], sel=load, out=DffIn6);
+    DFF(in=DffIn6, out=out[6], out=DffOut6);
+    
+    Mux(a=DffOut7, b=in[7], sel=load, out=DffIn7);
+    DFF(in=DffIn7, out=out[7], out=DffOut7);
+    
+    Mux(a=DffOut8, b=in[8], sel=load, out=DffIn8);
+    DFF(in=DffIn8, out=out[8], out=DffOut8);
+    
+    Mux(a=DffOut9, b=in[9], sel=load, out=DffIn9);
+    DFF(in=DffIn9, out=out[9], out=DffOut9);
+    
+    Mux(a=DffOut10, b=in[10], sel=load, out=DffIn10);
+    DFF(in=DffIn10, out=out[10], out=DffOut10);
+    
+    Mux(a=DffOut11, b=in[11], sel=load, out=DffIn11);
+    DFF(in=DffIn11, out=out[11], out=DffOut11);
+    
+    Mux(a=DffOut12, b=in[12], sel=load, out=DffIn12);
+    DFF(in=DffIn12, out=out[12], out=DffOut12);
+    
+    Mux(a=DffOut13, b=in[13], sel=load, out=DffIn13);
+    DFF(in=DffIn13, out=out[13], out=DffOut13);
+    
+    Mux(a=DffOut14, b=in[14], sel=load, out=DffIn14);
+    DFF(in=DffIn14, out=out[14], out=DffOut14);
+    
+    Mux(a=DffOut15, b=in[15], sel=load, out=DffIn15);
+    DFF(in=DffIn15, out=out[15], out=DffOut15);
 }
