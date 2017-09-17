@@ -1,0 +1,6 @@
+[submodule "projects/07/translator"]
+	path = projects/07/translator
+	url = git@github.com:natalieparellano/translator.git
+[submodule "projects/06/assembler"]
+	path = projects/06/assembler
+	url = git@github.com:natalieparellano/assembler.git
